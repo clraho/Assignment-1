@@ -1,4 +1,5 @@
-const http = require('http'); // Loads the http module http.createServer((request, response) => {
+const http = require('http'); // Loads the http module 
+http.createServer((request, response) => {
     // 1. Tell the browser everything is OK (Status code 200), and the data is in plain text
     response.writeHead(200, {
         'Content-Type': 'text/plain'
